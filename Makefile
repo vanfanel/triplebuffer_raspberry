@@ -17,8 +17,8 @@ LIBS = `sdl-config --libs` -lm  $(DISPMANX_LIBS)
 INCLUDES = $(DISPMANX_INCLUDES)
 OPTIM = -ffast-math -funroll-loops -O3 -fomit-frame-pointer -fmessage-length=0
 DEBUG = -O0 -ggdb
-CFLAGS = $(INCLUDES) $(OPTIM) -Wall
-#CFLAGS = $(INCLUDES) $(DEBUG) -Wall
+#CFLAGS = $(INCLUDES) $(OPTIM) -Wall
+CFLAGS = $(INCLUDES) $(DEBUG) -Wall
 
 OBJS =  raspberrypi.o main.o
 

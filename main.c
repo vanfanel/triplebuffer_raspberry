@@ -35,7 +35,7 @@ int main (){
 		
 		}
 
-		dispmanx_main_surface_update(pixels);
+		dispmanx_update(pixels);
 	}
 	}
 	free (pixels);
