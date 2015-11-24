@@ -152,7 +152,8 @@ static void dispmanx_surface_setup(int src_width,
 
 	/* Setup surface parameters */
 	surface->numpages = numpages;
-	/* We receive the pitch for what we consider "useful info", excluding things that are between scanlines. */
+	/* We receive the pitch for what we consider "useful info", excluding 
+	 * things that are between scanlines. */
 	surface->pitch  = visible_pitch;
 
 	/* Transparency disabled */
